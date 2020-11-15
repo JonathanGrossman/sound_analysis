@@ -1,18 +1,18 @@
 import torch
 
-from argus import Model
-from argus.utils import deep_detach, deep_to
+from argus_freesound.argus import Model
+from argus_freesound.argus.utils import deep_detach, deep_to
 
-from src.models import resnet
-from src.models import senet
-from src.models.feature_extractor import FeatureExtractor
-from src.models.simple_kaggle import SimpleKaggle
-from src.models.simple_attention import SimpleAttention
-from src.models.skip_attention import SkipAttention
-from src.models.aux_skip_attention import AuxSkipAttention
-from src.models.rnn_aux_skip_attention import RnnAuxSkipAttention
-from src.losses import OnlyNoisyLqLoss, OnlyNoisyLSoftLoss, BCEMaxOutlierLoss
-from src import config
+from argus_freesound.src.models import resnet
+from argus_freesound.src.models import senet
+from argus_freesound.src.models.feature_extractor import FeatureExtractor
+from argus_freesound.src.models.simple_kaggle import SimpleKaggle
+from argus_freesound.src.models.simple_attention import SimpleAttention
+from argus_freesound.src.models.skip_attention import SkipAttention
+from argus_freesound.src.models.aux_skip_attention import AuxSkipAttention
+from argus_freesound.src.models.rnn_aux_skip_attention import RnnAuxSkipAttention
+from argus_freesound.src.losses import OnlyNoisyLqLoss, OnlyNoisyLSoftLoss, BCEMaxOutlierLoss
+from argus_freesound.src import config
 
 
 class FreesoundModel(Model):

@@ -1,9 +1,9 @@
 import torch
 from torch.utils.data import DataLoader
 
-from argus import load_model
+from argus_freesound.argus import load_model
 
-from src.tiles import ImageSlicer
+from argus_freesound.src.tiles import ImageSlicer
 
 
 @torch.no_grad()

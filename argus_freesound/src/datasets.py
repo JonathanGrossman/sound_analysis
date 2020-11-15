@@ -8,8 +8,8 @@ from functools import partial
 import multiprocessing as mp
 from torch.utils.data import Dataset
 
-from src.audio import read_as_melspectrogram, get_audio_config
-from src import config
+from argus_freesound.src.audio import read_as_melspectrogram, get_audio_config
+from argus_freesound.src import config
 
 
 N_WORKERS = mp.cpu_count()
