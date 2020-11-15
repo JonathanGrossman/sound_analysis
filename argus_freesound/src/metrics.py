@@ -3,7 +3,7 @@ import numpy as np
 
 from argus.metrics.metric import Metric
 
-from src import config
+from argus_freesound.src import config
 
 
 class MultiCategoricalAccuracy(Metric):
