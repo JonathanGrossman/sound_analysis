@@ -1,7 +1,7 @@
 import torch
 import numpy as np
 
-from argus_freesound.argus.metrics.metric import Metric
+from argus.metrics.metric import Metric
 
 from argus_freesound.src import config
 

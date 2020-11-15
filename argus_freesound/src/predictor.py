@@ -1,7 +1,7 @@
 import torch
 from torch.utils.data import DataLoader
 
-from argus_freesound.argus import load_model
+from argus import load_model
 
 from argus_freesound.src.tiles import ImageSlicer
 

@@ -1,7 +1,7 @@
 import math
 from torch.optim.lr_scheduler import _LRScheduler
 
-from argus_freesound.argus.callbacks.lr_schedulers import LRScheduler
+from argus.callbacks.lr_schedulers import LRScheduler
 
 
 class CosineAnnealingWarmRestarts(_LRScheduler):
