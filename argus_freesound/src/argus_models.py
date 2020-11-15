@@ -1,7 +1,7 @@
 import torch
 
-from argus_freesound.argus import Model
-from argus_freesound.argus.utils import deep_detach, deep_to
+from argus import Model
+from argus.utils import deep_detach, deep_to
 
 from argus_freesound.src.models import resnet
 from argus_freesound.src.models import senet
